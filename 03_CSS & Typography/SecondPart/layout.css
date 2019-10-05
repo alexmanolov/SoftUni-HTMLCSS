@@ -1,0 +1,35 @@
+body {
+   
+}
+
+.site {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+table {
+    border: 1px solid gray;
+    width: 100%;
+    text-align: left;
+    border-spacing: 0.2em;
+    margin-bottom: 1.5em;
+}
+
+table th
+table td {
+    border: 1px solid #ccc;
+    padding: 0.4em 0.8em;
+}
+
+table td {
+    background: #eee;
+}
+
+table th {
+    font-weight: bold;
+    background: darkgray;
+}
+
+table tbody tr:nth-child(even) {
+    background: #ccc;
+}
